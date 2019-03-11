@@ -10,7 +10,5 @@ public abstract class PageBase {
 		}
 	}
 	
-	public void hello() {
-		System.out.println("yo");
-	}
+
 }
