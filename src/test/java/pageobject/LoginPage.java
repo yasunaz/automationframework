@@ -10,7 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 import base.PageBase;
 
 public class LoginPage extends PageBase {
-	private WebDriver driver; 
 
 	//elements (Findby.XXXXX)
 	@FindBy(tagName="h1")
@@ -27,7 +26,7 @@ public class LoginPage extends PageBase {
 	
 	//constructor
 	public LoginPage(WebDriver inputDriver) {
-		driver = inputDriver;
+		super(inputDriver);
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -40,7 +39,7 @@ public class LoginPage extends PageBase {
 		loginButton.click();
 	}
 	
-	public boolean loginFailed() {
+	public boolean isLoginFailed() {
 		try {
 			driver.findElement(By.className("error-message"));
 			return true;

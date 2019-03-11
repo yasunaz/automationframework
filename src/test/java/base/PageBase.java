@@ -1,8 +1,22 @@
 package base;
 
-public abstract class PageBase {
+import org.openqa.selenium.WebDriver;
 
-	protected void waitfor(int seocnds) {
+public abstract class PageBase {
+	
+	protected WebDriver driver;
+	
+	// Constructors 
+	public PageBase(WebDriver inputDriver) {
+		driver = inputDriver;
+	}
+	
+
+	/**
+	 * This method paused the test for specified seconds
+	 * @param seocnds  integer number for seconds
+	 */
+	public void waitfor(int seocnds) {
 		try {
 			Thread.sleep(seocnds * 1000);
 		} catch (InterruptedException e) {

@@ -9,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import base.PageBase;
 
 public class HomePage extends PageBase {
-	private WebDriver driver;
 	
 	// ========= ELEMENTS in the Home Page ========================
 	@FindBy(xpath="//a[text()='Log In']")
@@ -20,8 +19,8 @@ public class HomePage extends PageBase {
 	
 	//Constructor
 	public HomePage(WebDriver inputDriver) {
-		driver = inputDriver;
-		driver.get("https://trello.com");
+		super(inputDriver);
+		driver.get("https://www.trello.com");
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -39,8 +38,7 @@ public class HomePage extends PageBase {
 		String bannerText = driver.findElement(By.tagName("h1")).getText();
 		return bannerText;
 	}
-	
-	
+
 }
 
 
