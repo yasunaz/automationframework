@@ -1,6 +1,7 @@
 package base;
 
 public abstract class PageBase {
+
 	protected void waitfor(int seocnds) {
 		try {
 			Thread.sleep(seocnds * 1000);
@@ -9,9 +10,12 @@ public abstract class PageBase {
 		}
 	}
 	
+
 	
 	public void hello() {
 		int num = 4;
 	}
 
+
+	
 }
