@@ -8,5 +8,10 @@ public abstract class PageBase {
 			e.printStackTrace();
 		}
 	}
+	
+	
+	public void hello() {
+		int num = 4;
+	}
 
 }
