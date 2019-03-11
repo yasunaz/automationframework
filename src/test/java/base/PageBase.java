@@ -1,8 +1,16 @@
 package base;
 
 public abstract class PageBase {
-	private void waitfor(int seconds) {
-		System.err.println("");
+
+	protected void waitfor(int seocnds) {
+		try {
+			Thread.sleep(seocnds * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
-		
+	
+	public void hello() {
+		System.out.println("yo");
+	}
 }
