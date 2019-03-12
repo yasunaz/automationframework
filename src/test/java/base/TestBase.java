@@ -35,4 +35,10 @@ public abstract class TestBase {
 		System.out.println("Teklab rocks");
 	}
 	
+	
+	// This is AZ !!!!!! 
+	// i am making changes  
+	public void az() {
+		System.out.println("AZ ROCKS!!!!!!");
+	}
 }

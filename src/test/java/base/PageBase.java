@@ -17,14 +17,13 @@ public abstract class PageBase {
 	 * @param seocnds  integer number for seconds
 	 */
 	public void waitfor(int seocnds) {
+		//Hello guys!s
 		try {
 			Thread.sleep(seocnds * 1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
-	
-	
 	
 	//"hello guys"
 	public void printHI() {
@@ -34,4 +33,5 @@ public abstract class PageBase {
 	public void someMethom() {
 		// some code 
 	}
+
 }
