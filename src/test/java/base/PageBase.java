@@ -23,4 +23,13 @@ public abstract class PageBase {
 			e.printStackTrace();
 		}
 	}
+	
+	//"hello guys"
+	public void printHI() {
+		System.out.println("Teklab rocks");
+	}
+	
+	public void someMethom() {
+		// some code 
+	}
 }
