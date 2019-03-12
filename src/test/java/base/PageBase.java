@@ -23,4 +23,6 @@ public abstract class PageBase {
 			e.printStackTrace();
 		}
 	}
+	
+	//Git is amazing!!! ---gulzira
 }
