@@ -29,13 +29,12 @@ public abstract class TestBase {
 			driver.quit();
 		}
 	}
-	// Uzima my name added
 	//"hello guys"
 	public void printHI() {
 		System.out.println("Teklab rocks");
 	}
 	
-	
+	// Uzima is adding stuff
 	// This is AZ !!!!!! 
 	// i am making changes  
 	public void az() {
