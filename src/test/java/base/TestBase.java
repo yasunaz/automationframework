@@ -31,5 +31,8 @@ public abstract class TestBase {
 	}
 	
 	//"hello guys"
+	public void printHI() {
+		System.out.println("Teklab rocks");
+	}
 	
 }
