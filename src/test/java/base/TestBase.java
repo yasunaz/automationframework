@@ -38,4 +38,7 @@ public abstract class TestBase {
 	
 	// This is AZ !!!!!! 
 	// i am making changes  
+	public void az() {
+		System.out.println("AZ ROCKS!!!!!!");
+	}
 }
