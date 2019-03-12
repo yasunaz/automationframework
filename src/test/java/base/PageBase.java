@@ -33,5 +33,7 @@ public abstract class PageBase {
 	public void someMethom() {
 		// some code 
 	}
-
+public void getIn() {
+	// I think I got it
+}
 }
