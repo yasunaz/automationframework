@@ -17,6 +17,7 @@ public abstract class PageBase {
 	 * @param seocnds  integer number for seconds
 	 */
 	public void waitfor(int seocnds) {
+		//Hello guys!s
 		try {
 			Thread.sleep(seocnds * 1000);
 		} catch (InterruptedException e) {
@@ -24,5 +25,13 @@ public abstract class PageBase {
 		}
 	}
 	
-	//Git is amazing!!! ---gulzira
+	//"hello guys"
+	public void printHI() {
+		System.out.println("Teklab rocks");
+	}
+	
+	public void someMethom() {
+		// some code 
+	}
+
 }
