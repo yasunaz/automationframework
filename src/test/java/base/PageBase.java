@@ -25,11 +25,11 @@ public abstract class PageBase {
 	}
 	
 	//"hello guys"
-		public void printHI() {
-			System.out.println("Teklab rocks");
-		}
-		
-		public void someMethom() {
-			System.out.println("second message");
-		}
+	public void printHI() {
+		System.out.println("Teklab rocks");
+	}
+	
+	public void someMethom() {
+		// some code 
+	}
 }
