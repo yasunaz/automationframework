@@ -24,6 +24,8 @@ public abstract class TestBase {
 
 	@AfterTest
 	public void cleanUpTestEnv() {
+		
+		//This is Mubarak
 		if(driver != null) {
 			driver.close();
 			driver.quit();
