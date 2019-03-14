@@ -38,6 +38,4 @@ public class SanityTestPartOne extends TestBase {
 		Assert.assertEquals(actual, expected);
 		
 	}
-	
-	
 }

@@ -5,7 +5,7 @@
 
 	<!-- Project Information -->
 	<groupId>teklab</groupId>
-	<artifactId>gulginatestautomation</artifactId>
+	<artifactId>testautomation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Teklab Data Driven Automation Frameowork </name>
 	<description>This is our test automation frameowork for the Trello Web Application. 
@@ -35,6 +35,13 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
+				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
+					<forkMode>never</forkMode>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/testrunner/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
