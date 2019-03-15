@@ -40,8 +40,14 @@ public abstract class PageBase {
 		System.out.println("hey some method");
 	}
 	
+	/**
+	 * This is a magic magic method from JC's laptop
+	 */
 	public void myWayMethod() {
 		System.out.println("Hey this method was craeted at JC's local pc");
 	}
-
+	
+	public void myHeyMethod() {
+		System.out.println("Hey from SDET");
+	}
 }
