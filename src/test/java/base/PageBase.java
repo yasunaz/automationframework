@@ -44,4 +44,9 @@ public abstract class PageBase {
 		System.out.println("Hey this method was craeted at JC's local pc");
 	}
 
+	
+	public void myHeyMethod() {
+		// TODO code this later
+	}
+
 }
