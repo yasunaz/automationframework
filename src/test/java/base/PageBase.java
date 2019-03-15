@@ -25,11 +25,16 @@ public abstract class PageBase {
 		}
 	}
 
-	// "hello guys"
+	/**
+	 * This is our magic methods
+	 */
 	public void printHI() {
 		System.out.println("Teklab rocks");
 	}
 
+	/**
+	 * This is also our second magic method
+	 */
 	public void someMethom() {
 		// some code
 	}
