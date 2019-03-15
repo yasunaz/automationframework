@@ -39,5 +39,9 @@ public abstract class PageBase {
 		// some code
 		System.out.println("hey some method");
 	}
+	
+	public void myWayMethod() {
+		System.out.println("Hey this method was craeted at JC's local pc");
+	}
 
 }
