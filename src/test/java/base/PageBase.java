@@ -37,6 +37,7 @@ public abstract class PageBase {
 	 */
 	public void someMethom() {
 		// some code
+		System.out.println("hey some method");
 	}
 
 }
