@@ -11,8 +11,5 @@
 			<class name="testcases.SanityTestPartOne"/>
 		</classes>
 	</test>
-	
-	<test name="RegressionTest">
-		
-	</test>
+
 </suite>
