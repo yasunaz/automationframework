@@ -5,7 +5,6 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class TestListener implements ITestListener {
-
 	// =============== Test Case ================
 	public void onTestStart(ITestResult result) {
 		String testCaseName = result.getName();
@@ -39,6 +38,5 @@ public class TestListener implements ITestListener {
 	public void onFinish(ITestContext context) {
 		String testname = context.getName();
 		System.out.println("Our Test has finisehd: " + testname);
-		
 	}
 }
