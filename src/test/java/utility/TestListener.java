@@ -5,34 +5,38 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class TestListener implements ITestListener {
-
-	// =========== TEST ===========================
-	public void onStart(ITestContext arg0) {
-
+	// =============== Test Case ================
+	public void onTestStart(ITestResult result) {
+		String testCaseName = result.getName();
+		System.out.println("Test Case has started: " + testCaseName);
 	}
 
-	public void onFinish(ITestContext arg0) {
-
+	public void onTestSuccess(ITestResult result) {
+		String testCaseName = result.getName();
+		System.out.println("Test Case Has Passed!\n");
 	}
 
-	// ============ TEST CASE =======================
-	public void onTestStart(ITestResult arg0) {
-
+	public void onTestFailure(ITestResult result) {
+		System.out.println("Test Case Has Failed!\n");
+		
 	}
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
-
+	public void onTestSkipped(ITestResult result) {
+		System.out.println("Test Case Has Skipped");
+		
 	}
 
-	public void onTestFailure(ITestResult arg0) {
-
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		System.out.println("Soft Assert Had a failure");
+	}
+	
+	// ============== Test =======================
+	public void onStart(ITestContext context) {
+		System.out.println("Our Test Has Started:  " + context.getName() );
 	}
 
-	public void onTestSkipped(ITestResult arg0) {
-
-	}
-
-	public void onTestSuccess(ITestResult arg0) {
-
+	public void onFinish(ITestContext context) {
+		String testname = context.getName();
+		System.out.println("Our Test has finisehd: " + testname);
 	}
 }

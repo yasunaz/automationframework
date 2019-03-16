@@ -8,7 +8,6 @@ import base.TestBase;
 import pageobject.HomePage;
 
 // Test Class ----> {@Test, @Test...etc } 
-
 public class SanityTestPartOne extends TestBase {
 	
 	
