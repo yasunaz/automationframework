@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ACR's Tests">
 	<listeners>
-		<listener class-name="utility.TestListener"></listener>
+		<listener class-name="utility.extentreport.TestListener"></listener>
 	</listeners>
 
 	<test name="SmokeTest">
@@ -10,8 +10,4 @@
 			<class name="testcases.SanityTestPartOne"/>
 		</classes>
 	</test>
-<<<<<<< HEAD
-
-=======
->>>>>>> 51a03afa96d1e1b34deec05321f4fbc2d7a3d3d6
 </suite>
