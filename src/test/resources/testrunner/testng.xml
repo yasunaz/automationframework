@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ACR's Tests">
+	<listeners>
+		<listener class-name="utility.TestListener"></listener>
+	</listeners>
+	
 	<test name="SmokeTest">
 		<classes>
 			<class name="testcases.SanityTestPartOne"/>
 		</classes>
-	</test>
-	
-	<test name="RegressionTest">
-		
 	</test>
 </suite>
