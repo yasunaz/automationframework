@@ -24,10 +24,22 @@ public abstract class TestBase {
 
 	@AfterTest
 	public void cleanUpTestEnv() {
+		
+		//This is Mubarak
 		if(driver != null) {
 			driver.close();
 			driver.quit();
 		}
 	}
+	//"hello guys"
+	public void printHI() {
+		System.out.println("Teklab rocks");
+	}
 	
+	// Uzima is adding stuff
+	// This is AZ !!!!!! 
+	// i am making changes  
+	public void az() {
+		System.out.println("AZ ROCKS!!!!!!");
+	}
 }

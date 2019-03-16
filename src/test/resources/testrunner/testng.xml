@@ -8,8 +8,11 @@
 
 	<test name="SmokeTest">
 		<classes>
-			<class name="testcases.SanityTestPartOne"/>  
-			<class name="testcases.SantiyTestPartTwo"/>
+			<class name="testcases.SanityTestPartOne"/>
 		</classes>
+	</test>
+	
+	<test name="RegressionTest">
+		
 	</test>
 </suite>
