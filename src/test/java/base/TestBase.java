@@ -22,6 +22,8 @@ public abstract class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS); // <--- this is for web page for display
 	}
 
+	//This is Dilshat
+	//Im doing my final github practice.
 	@AfterTest
 	public void cleanUpTestEnv() {
 		
